@@ -22,6 +22,7 @@
     "pep8_ignore":
     [
         "W293",
+        "E501",
     ],
 
     // Sidebar - exclude distracting files and folders and make folders bold
