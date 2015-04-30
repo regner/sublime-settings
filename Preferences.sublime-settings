@@ -1,0 +1,47 @@
+{
+    // Look and feel stuff
+    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+    "drag_text": false,
+    "font_size": 13,
+
+
+    // Tab stuff
+    "tab_size": 4,
+    "shift_tab_unindent": true,
+    "translate_tabs_to_spaces": true,
+
+    // Cursor style - no blinking and slightly wider than default
+    "caret_style": "solid",
+    "wide_caret": true,
+
+    // To hell with PEP8, 80 and 90 are soft limits, 100 hard
+    "rulers": [ 80, 90, 100 ],
+    "trim_trailing_white_space_on_save": true,
+
+    // Few other things I like to ignore from PEP8
+    "pep8_ignore":
+    [
+        "W293",
+    ],
+
+    // Sidebar - exclude distracting files and folders and make folders bold
+    "bold_folder_labels": true,
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        "*.pid",
+        "*.pyc"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "__pycache__",
+        "env",
+        "env3",
+        "venv",
+        "*.egg-info",
+        ".vagrant",
+        ".idea",
+        "build",
+    ],
+}
